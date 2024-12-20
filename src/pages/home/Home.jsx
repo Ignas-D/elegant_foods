@@ -32,7 +32,7 @@ const Home = () => {
         <p className="text-3xl">For all your catering needs!</p>
         <div className="object-contain h-2/6 w-2/6 mt-20">
           <img
-            src="/src/assets/2D705227-C6D0-4C49-B48B-B94E8D4DDC7F.JPG"
+            src="./src/assets/2D705227-C6D0-4C49-B48B-B94E8D4DDC7F.JPG"
             alt="catering"
             className="rounded-3xl mb-12"
           />
@@ -48,7 +48,7 @@ const Home = () => {
       >
         <div className=" h-2/6 w-2/6 mt-20 mb-20">
           <img
-            src="/src/assets/175da6aa-3a41-4769-9a87-c4f2e8e70c9f.jpeg"
+            src="./src/assets/175da6aa-3a41-4769-9a87-c4f2e8e70c9f.jpeg"
             alt="strawberries"
             className="rounded-2xl object-contain hover:opacity-90"
           />
@@ -71,17 +71,17 @@ const Home = () => {
         <div className="flex flex-row">
           <div className="flex flex-row mb-20">
             <img
-              src="/src/assets/Делюкс.jpeg"
+              src="./src/assets/Делюкс.jpeg"
               alt="deluxe"
               className="object-contain h-auto w-full mt-20 mr-10 ml-24"
             />
             <img
-              src="/src/assets/Платтер закусок.jpeg"
+              src="./src/assets/Платтер закусок.jpeg"
               alt="food box"
               className="object-contain h-auto w-full mt-20 mr-10"
             />
             <img
-              src="/src/assets/Гурме.jpeg"
+              src="./src/assets/Гурме.jpeg"
               alt="another food box"
               className="object-contain h-auto w-full mt-20"
             />
