@@ -33,7 +33,7 @@ const Home = () => {
           <p className="text-3xl">For all your catering needs!</p>
           <div className="object-contain h-2/6 w-2/6 mt-20">
             <img
-              src="src/assets/2D705227-C6D0-4C49-B48B-B94E8D4DDC7F.JPG"
+              src="../../assets/2D705227-C6D0-4C49-B48B-B94E8D4DDC7F.JPG"
               alt="catering"
               className="rounded-3xl mb-12 shadow-lg"
             />
