@@ -20,24 +20,26 @@ const Home = () => {
 
   return (
     <div className="w-full h-full font-firstFont font-light">
-      <motion.div
-        ref={ref}
-        variants={boxVariant}
-        initial="hidden"
-        animate={control}
-        whileInView="visible"
-        className="flex items-center justify-center flex-col bg-custom-image bg-center"
-      >
-        <h1 className="text-7xl mt-8 text-bold ">Elegant Food Catering</h1>
-        <p className="text-3xl">For all your catering needs!</p>
-        <div className="object-contain h-2/6 w-2/6 mt-20">
-          <img
-            src="src/assets/2D705227-C6D0-4C49-B48B-B94E8D4DDC7F.JPG"
-            alt="catering"
-            className="rounded-3xl mb-12"
-          />
-        </div>
-      </motion.div>
+      <div className=" bg-custom-image bg-auto bg-center bg-no-repeat w-screen max-h-screen">
+        <motion.div
+          ref={ref}
+          variants={boxVariant}
+          initial="hidden"
+          animate={control}
+          whileInView="visible"
+          className="flex items-center justify-center flex-col"
+        >
+          <h1 className="text-7xl mt-8 text-bold ">Elegant Food Catering</h1>
+          <p className="text-3xl">For all your catering needs!</p>
+          <div className="object-contain h-2/6 w-2/6 mt-20">
+            <img
+              src="/src/assets/2D705227-C6D0-4C49-B48B-B94E8D4DDC7F.JPG"
+              alt="catering"
+              className="rounded-3xl mb-12 shadow-lg"
+            />
+          </div>
+        </motion.div>
+      </div>
       <motion.div
         ref={ref}
         variants={boxVariant}
@@ -89,10 +91,10 @@ const Home = () => {
         </div>
       </motion.div>
 
-      <div className="flex">
+      <div className="flex justify-center items-center">
         {/*Here will be another spread with maybe another statement? Background should be like a picture with food*/}
-        <div className="flex flex-col bg-custom-image bg-cover bg-no-repeat bg-center w-full h-72">
-          <h3 className="flex items-center justify-center text-4xl">
+        <div className="flex flex-col">
+          <h3 className="flex justify-center text-4xl text-center">
             We are pleased to cater any of your events!
           </h3>
         </div>

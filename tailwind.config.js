@@ -11,8 +11,11 @@ export default {
       offwhite: "#FFFDD0",
       grey: "#333333",
     },
-
-    extend: {},
+    extend: {
+      backgroundImage: {
+        "custom-image": "url('./src/assets/IMG_1304.jpg')",
+      },
+    },
   },
   plugins: [],
 };
