@@ -2,6 +2,7 @@ import { SocialIcon } from "react-social-icons";
 import { motion, useAnimation } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 import { useEffect } from "react";
+import logo from "../../assets/2D705227-C6D0-4C49-B48B-B94E8D4DDC7F.jpg";
 
 const boxVariant = {
   visible: { opacity: 1, scale: 1, transition: { duration: 0.8 } },
@@ -33,7 +34,7 @@ const Home = () => {
           <p className="text-3xl">For all your catering needs!</p>
           <div className="object-contain h-2/6 w-2/6 mt-20">
             <img
-              src="../assets/2D705227-C6D0-4C49-B48B-B94E8D4DDC7F.JPG"
+              src={logo}
               alt="catering"
               className="rounded-3xl mb-12 shadow-lg"
             />
