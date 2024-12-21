@@ -2,7 +2,7 @@ import { SocialIcon } from "react-social-icons";
 import { motion, useAnimation } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 import { useEffect } from "react";
-import logo from "../../assets/2D705227-C6D0-4C49-B48B-B94E8D4DDC7F.jpg";
+import logo from "../../assets/2D705227-C6D0-4C49-B48B-B94E8D4DDC7F.jpeg";
 
 const boxVariant = {
   visible: { opacity: 1, scale: 1, transition: { duration: 0.8 } },
