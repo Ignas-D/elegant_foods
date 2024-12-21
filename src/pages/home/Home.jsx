@@ -3,6 +3,10 @@ import { motion, useAnimation } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 import { useEffect } from "react";
 import logo from "../../assets/2D705227-C6D0-4C49-B48B-B94E8D4DDC7F.jpeg";
+import img1 from "../../assets/175da6aa-3a41-4769-9a87-c4f2e8e70c9f.jpeg";
+import img2 from "../../assets/Делюкс.jpeg";
+import img3 from "../../assets/Платтер закусок.jpeg";
+import img4 from "../../assets/Гурме.jpeg";
 
 const boxVariant = {
   visible: { opacity: 1, scale: 1, transition: { duration: 0.8 } },
@@ -51,7 +55,7 @@ const Home = () => {
       >
         <div className=" h-2/6 w-2/6 mt-20 mb-20">
           <img
-            src="./src/assets/175da6aa-3a41-4769-9a87-c4f2e8e70c9f.jpeg"
+            src={img1}
             alt="strawberries"
             className="rounded-2xl object-contain hover:opacity-90"
           />
@@ -74,17 +78,17 @@ const Home = () => {
         <div className="flex flex-row">
           <div className="flex flex-row mb-20">
             <img
-              src="./src/assets/Делюкс.jpeg"
+              src={img2}
               alt="deluxe"
               className="object-contain h-auto w-full mt-20 mr-10 ml-24"
             />
             <img
-              src="./src/assets/Платтер закусок.jpeg"
+              src={img3}
               alt="food box"
               className="object-contain h-auto w-full mt-20 mr-10"
             />
             <img
-              src="./src/assets/Гурме.jpeg"
+              src={img4}
               alt="another food box"
               className="object-contain h-auto w-full mt-20"
             />

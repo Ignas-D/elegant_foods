@@ -13,7 +13,7 @@ export default {
     },
     extend: {
       backgroundImage: {
-        "custom-image": "url('./src/assets/IMG_1304.jpg')",
+        "custom-image": "url('../src/assets/IMG_1304.jpg')",
       },
     },
   },
