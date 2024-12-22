@@ -20,7 +20,7 @@ const Navbar = () => {
   }, []);
 
   return (
-    <div className={`w-full h-16 bg-secondary font ${stickyClass}`}>
+    <div className={`w-full h-16 bg-secondary font ${stickyClass} mb-20`}>
       <nav className="relative">
         <ul className="flex justify-evenly items-center p-5 bg-gray-800 text-white font-firstFont">
           <li className="px-4">
