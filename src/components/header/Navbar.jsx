@@ -1,6 +1,26 @@
+import React, { useState, useEffect } from "react";
+
 const Navbar = () => {
+  const [stickyClass, setStickyClass] = useState("relative");
+
+  const stickNavbar = () => {
+    if (typeof window !== "undefined") {
+      let windowHeight = window.scrollY;
+      windowHeight > 300
+        ? setStickyClass("fixed top-0 left-0 z-50 w-full")
+        : setStickyClass("relative");
+    }
+  };
+
+  useEffect(() => {
+    window.addEventListener("scroll", stickNavbar);
+    return () => {
+      window.removeEventListener("scroll", stickNavbar);
+    };
+  }, []);
+
   return (
-    <div className="w-full h-full bg-secondary font">
+    <div className={`w-full h-16 bg-secondary font ${stickyClass}`}>
       <nav className="relative">
         <ul className="flex justify-evenly items-center p-5 bg-gray-800 text-white font-firstFont">
           <li className="px-4">
