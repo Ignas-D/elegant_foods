@@ -25,14 +25,14 @@ const Home = () => {
 
   return (
     <div className="w-full h-full font-firstFont font-light">
-      <div className=" bg-custom-image bg-auto bg-center bg-no-repeat w-screen max-h-screen">
+      <div className=" bg-custom-image bg-cover bg-center bg-no-repeat w-screen max-h-screen">
         <motion.div
           ref={ref}
           variants={boxVariant}
           initial="hidden"
           animate={control}
           whileInView="visible"
-          className="flex items-center justify-center flex-col"
+          className="flex items-center justify-center flex-col rounded-2xl"
         >
           <h1 className="text-7xl mt-8 text-bold ">Elegant Food Catering</h1>
           <p className="text-3xl">For all your catering needs!</p>
@@ -51,7 +51,7 @@ const Home = () => {
         initial="hidden"
         animate={control}
         whileInView="visible"
-        className="flex flex-row bg-offwhite mb-4 justify-center items-center"
+        className="flex flex-row bg-offwhite mb-4 justify-center items-center rounded-2xl"
       >
         <div className=" h-2/6 w-2/6 mt-20 mb-20">
           <img
@@ -73,7 +73,7 @@ const Home = () => {
         initial="hidden"
         animate={control}
         whileInView="visible"
-        className="flex flex-row bg-primary"
+        className="flex flex-row bg-primary rounded-2xl"
       >
         <div className="flex flex-row">
           <div className="flex flex-row mb-20">
@@ -99,7 +99,7 @@ const Home = () => {
       <div className="flex justify-center items-center">
         {/*Here will be another spread with maybe another statement? Background should be like a picture with food*/}
         <div className="flex flex-col">
-          <h3 className="flex justify-center text-4xl text-center">
+          <h3 className="flex justify-center text-4xl text-center mt-6">
             We are pleased to cater any of your events!
           </h3>
         </div>

@@ -1,9 +1,9 @@
 const Contact = () => {
   return (
-    <div className="contact-form max-w-md mx-auto p-6 bg-white rounded-lg shadow-md">
-      <h2 className="text-2xl font-bold mb-6 text-center">Contact Us!</h2>
-      <div>
-        <form className="mt-8">
+    <div className="w-screen h-screen bg-custom-image bg-cover bg-no-repeat pt-20">
+      <div className="p-6 rounded-lg shadow-md bg-offwhite max-w-md mx-auto">
+        <h2 className="text-2xl font-bold text-center">Contact Us!</h2>
+        <form className="mt-12 bg-white">
           <div className="mb-4">
             <label htmlFor="name">Name:</label>
             <input
