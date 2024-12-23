@@ -1,7 +1,10 @@
+// add some animation to the contact form
+import { motion } from "framer-motion";
+
 const Contact = () => {
   return (
     <div className="w-screen h-screen bg-custom-image bg-cover bg-no-repeat pt-20">
-      <div className="p-6 rounded-lg shadow-md bg-offwhite max-w-md mx-auto">
+      <motion.div className=" relative p-6 rounded-lg shadow-md bg-offwhite max-w-md mx-auto">
         <h2 className="text-2xl font-bold text-center">Contact Us!</h2>
         <form className="mt-12 bg-white">
           <div className="mb-4">
@@ -73,7 +76,7 @@ const Contact = () => {
             Submit
           </button>
         </form>
-      </div>
+      </motion.div>
     </div>
   );
 };

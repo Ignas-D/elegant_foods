@@ -1,3 +1,4 @@
+// talk with mama and see what else to do with this page
 import img1 from "../../assets/IMG_2273.jpg";
 import img2 from "../../assets/IMG_2274.jpg";
 import img3 from "../../assets/IMG_2275.jpg";

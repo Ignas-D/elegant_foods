@@ -1,3 +1,4 @@
+// maybe add some different animation here?
 import { SocialIcon } from "react-social-icons";
 import { motion, useAnimation } from "framer-motion";
 import { useInView } from "react-intersection-observer";
